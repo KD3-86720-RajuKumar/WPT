@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESUME</title>
+
+    <style>
+      .resume-border {
+        border: 2px solid black;
+        width: 759px;
+        margin: 177px;
+      }
+
+      h3 {
+        color: blue;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .details {
+        display: inline;
+      }
+
+      .photosection {
+        display: block;
+      }
+
+      .photo {
+        border: 2px solid black;
+        height: 142px;
+      }
+
+      .beproject {
+        display: inline;
+      }
+
+      .projects-header {
+        display: flex;
+      }
+
+      .content {
+        padding: 10px;
+      }
+
+      .details span {
+        color: black;
+      }
+
+      .table {
+        height: 214px;
+        width: 700px;
+        text-align: center;
+      }
+
+      .footer {
+        justify-content: space-between;
+      }
+
+      .image {
+        height: 142px;
+        width: 114px;
+      }
+
+      /* Style for checkmark bullets */
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      ul li::before {
+        content: "\2713"; /* Unicode for checkmark */
+        margin-right: 10px;
+        color: green; /* Change to preferred color */
+      }
+
+      .objective ul li::before {
+        content: "\2022"; /* Dot bullet */
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="resume-border">
+      <div class="content">
+        <center>
+          <h1>RESUME</h1>
+        </center>
+
+        <header>
+          <div class="header">
+            <div class="details">
+              <h3>Name: <span>Raju Kumar</span></h3>
+              <h3>Email: <span>rajukumar@gmail.com</span></h3>
+              <h3>Mobile: <span>+91 9857451412</span></h3>
+            </div>
+
+            <div class="photosection">
+              <div class="photo">
+                <img class="image" src=".\logo.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <br /><br />
+
+        <section class="objective">
+          <h3>Objective:</h3>
+          <hr />
+          <ul>
+            <li>
+              I am a tech enthusiast seeking a technical job in the IT industry.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Experience:</h3>
+          <hr />
+          <ul>
+            <li>
+              Front End Web Development Intern - Apple (01/2021 - 03/2023)
+            </li>
+            <li>
+              Developed responsive web applications, including a tribute page,
+              calculator, and portfolio, using front-end tech stack.
+            </li>
+            <li>
+              Implemented modern web design practices, improving user experience
+              and accessibility across multiple devices.
+            </li>
+            <li>
+              Gained hands-on experience in front-end development, laying a
+              strong foundation for further growth in web technologies.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Education:</h3>
+          <hr />
+          <center>
+            <table class="table" border="1" style="border-color: black">
+              <tr>
+                <td>CDAC (PG-DAC)</td>
+                <td>Sunbeam Institute of Information Technology, Pune</td>
+                <td>Aug 2024</td>
+                <td>70</td>
+              </tr>
+              <tr>
+                <td>MCA (Computer Applications)</td>
+                <td>Gaya College, Gaya</td>
+                <td>March 2024</td>
+                <td>80.61</td>
+              </tr>
+              <tr>
+                <td>H.S.C</td>
+                <td>Gaya College, Gaya</td>
+                <td>June 2020</td>
+                <td>80.30</td>
+              </tr>
+              <tr>
+                <td>S.S.C</td>
+                <td>R.B.R</td>
+                <td>March 2014</td>
+                <td>90.60</td>
+              </tr>
+            </table>
+          </center>
+        </section>
+
+        <section>
+          <h3>Projects:</h3>
+          <hr />
+          <ul>
+            <li>MCA Project: SMART FINANCIAL DECISION SUPPORT SYSTEM</li>
+            <li>Technologies: Flask, React JS, APIs, Streamlit</li>
+            <li>
+              Engineered solutions for stock prediction, mutual fund
+              suggestions, and undervalued stock identification.
+            </li>
+            <li>Implemented an option chain visualization tool.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Technical Skills:</h3>
+          <hr />
+          <ul>
+            <li>Programming Languages: HTML, CSS, JavaScript, C++, MySQL</li>
+            <li>Software: MySQL Workbench</li>
+            <li>Operating Systems: Windows, Linux</li>
+            <li>Databases: MySQL</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Extra-curricular Activities:</h3>
+          <hr />
+          <ul>
+            <li>NSS, Gaya</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Achievements:</h3>
+          <hr />
+          <ul>
+            <li>C++ Certification</li>
+            <li>Web Development Certification</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Personal Details:</h3>
+          <hr />
+          <ul>
+            <li>Date of Birth: 24/01/2000</li>
+            <li>Gender: Male</li>
+            <li>GAYA BIHAR</li>
+            <li>
+              I hereby declare that the above information is true and correct to
+              the best of my knowledge.
+            </li>
+          </ul>
+        </section>
+
+        <footer>
+          <div class="footer" style="display: flex">
+            <h5 style="display: inline">Date: 25/09/2000</h5>
+            <h5 style="display: inline; margin-right: 25px">Place: Karad</h5>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
