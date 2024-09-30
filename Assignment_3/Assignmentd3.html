@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ragistration Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>
+        <u>
+          <b>REGISTRATION FORM</b>
+        </u>
+      </h1>
+    </center>
+    <div style="width: 100%; display: flex">
+      <div style="width: 50%; align-items: center">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/02q9aAVv1NI?si=H6S5LEYyvTzNk6fR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div style="width: 50%; height: 300px">
+        <form>
+          <label for="name">First name </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value="Enter name"
+          />*<br /><br />
+          <label for="bdate">Birth Date </label>
+          <input
+            type="date"
+            id="bdate"
+            name="bdate"
+            value="Enter name"
+          />*<br /><br />
+          <label for="email">Email </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="abc@gmail.com"
+          /><br /><br />
+          <label for="password">Password </label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value="*******"
+          /><br /><br />
+          <label for="address">Address </label>
+
+          <select name="state" id="state">
+            <option value="Maharastha">Maharastha</option>
+            <option value="Bihar">Bihar</option>
+            <option value="New Delhi">New Delhi</option>
+            <option value="Jharkhand">Jharkhand</option>
+          </select>
+          <select name="district" id="district">
+            <option value="Pune">Pune</option>
+            <option value="Patna">Patna</option>
+            <option value="Mumbai">Maumbai</option>
+            <option value="Ranchi">Jharkhand</option>
+          </select>
+          <select name="city" id="city">
+            <option value="Pune">Pune</option>
+            <option value="Satara">Satara</option>
+            <option value="Nagapur">Nagapur</option>
+            <option value="Mumbai">Mumbai</option>
+          </select>
+          <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="text">State</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="text">District</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label for="text">City</label><br /><br/>
+
+          <label for="gender">Gender </label>
+          <input type="radio" id="gender" name="gender" value="Male" />
+          <label for="gender">Male</label>
+          <input type="radio" id="gender" name="gender" value="Female" />
+          <label for="gender">Female</label><br /><br />
+
+          <label for="photo">Upload photo </label>
+          <span class="input-group">
+            <input
+              type="file"
+              class="form-control"
+              id="inputGroupFile04"
+              aria-describedby="inputGroupFileAddon04"
+              aria-label="Upload"
+            />
+            <button
+              class="btn btn-outline-secondary"
+              type="button"
+              id="inputGroupFileAddon04"
+            >
+              button</button
+            ><br /><br />
+
+            <label for="schoice">Select Your Course </label>
+            <select name="schoice" id="schoice">
+              <option value="Select Your Choice">Select Your Course</option>
+              <option value="mca">MCA</option>
+              <option value="btech">B.Tech</option>
+              <option value="mtech">M.Tech</option>
+            </select>
+            <br /><br />
+
+            <button>Ragister</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button>Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
